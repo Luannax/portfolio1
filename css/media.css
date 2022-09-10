@@ -1,0 +1,196 @@
+@media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1024px) {
+            @media screen and (max-width: 1200px) {
+                /*HOME*/
+                #navbar {
+                    width: 100%;
+                    background-color: rgba(33, 31, 31, 0.61);
+                    color: rgb(255, 255, 255);
+                    height: 110px;
+                    position: fixed;
+                  }
+                  
+                  #nav-container {
+                    width: 100%;
+                    height: 100%;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                  }
+                  
+                  .logo{
+                    height: 66px;
+                  }
+                  
+                  #navbar-items {
+                    padding-bottom: 20px;
+                    font-size: 14px;
+                  }
+
+                  /*CONTAINER COM FOTO E APRESENTAÇÃO*/
+                  .conteudo-principal-imagem {
+                    height: 230px;
+                  }
+                  .conteudo-principal {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                  }
+                  .conteudo-principal-escrito-titulo {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 32px;
+                    color: #ffffff;
+                  }
+                  .conteudo-principal-escrito-subtitulo {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #ffffff;
+                  }
+                  
+                  
+                  /*REDES SOCIAIS DO COMEÇO DO SITE*/
+                  .conteudo-quinto1{
+                    display: flex;
+                    padding-left: 77px;
+                  }
+                  .conteudo-sociais{
+                    gap: 18px;
+                  }
+                  .social-git1 {
+                    height: 20px;
+                  }
+                  .social-instagram1 {
+                    height: 20px;
+                  }
+                  .social-linkedin1{
+                    height: 20px;
+                  }
+
+                  /*SOBRE MIM*/
+                  .titulo-sobremim {
+                    padding-top: 300px;
+                    display: flex;
+                    align-items: center;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #ffffff
+                  }
+                  
+                  .paragrafo-sobremim {
+                    padding-top: 50px;
+                    display: flex;
+                    font-size: 16px;
+                    line-height: 18px;
+                    font-family: 'Roboto', sans-serif;
+                    color: white;
+                  }
+
+                  /*HABILIDADES*/
+                  .terceiro-conteudo {
+                    padding-top: 280px;
+                    display: flex;
+                    flex-direction: column;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #ffffff;
+                  
+                  }
+                  .imagens-terceiro {
+                    text-align: center;
+                  }
+                  .img-teceiro-html {
+                  height: 80px;
+                  }
+                  .img-teceiro-css {
+                    height: 80px;
+                  }
+                  .img-teceiro-javascript {
+                    height: 80px;
+                  }
+                  .img-teceiro-python {
+                    height: 80px;
+                  }
+
+                  /*PROJETOS*/
+                  .conteudo-projetos{
+                    padding-top: 320px;
+                  }
+                  .titulo-projetos1 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #ffffff
+                  }
+                  .paragrafo-projetos {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: white ;
+                    text-align: center;
+                  }
+                  .box-projetos {
+                    display: flex;
+                    gap: 1.8rem;
+                    justify-content: center;
+                    padding: 2rem 2rem 0;
+                    flex-wrap: wrap;
+                  }
+                  .box-especialidade{
+                    border-radius: 3px;
+                    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.5);
+                    margin: 20px;
+                  }
+                  .box-especialidade figcaption {
+                    text-align: center;
+                    padding: 10px;
+                    text-transform: uppercase;
+                  }
+                  .box-link {
+                    color: white;
+                    font-family: 'Roboto', sans-serif;
+                  }
+                  .box-link:hover{
+                    color: #45d000;
+                    background-color: transparent;
+                    border-radius: 30px;
+                    box-shadow: 8px 0px 8px #44e649;
+                  }
+                  .box-projetos img {
+                    width: 215px;
+                    margin: 10px;
+                  }
+                  .link-devmedia {
+                    color: rgb(0, 249, 62);
+                  }
+
+                  /*WHATS*/
+                  .logo-whats{
+                    height: 100px;
+                  }
+
+                  /*RODAPE*/
+                  .rodape {
+                    font-size: 14px;
+                  }
+                  .social-git {
+                    height: 20px;
+                  }
+                  .social-instagram {
+                    height: 20px;
+                  }
+                  .social-linkedin{
+                    height: 20px;
+                  }
+}
+    }
+        }
+            }

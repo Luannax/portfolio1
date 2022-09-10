@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family-Roboy&display-swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*HOME*/
+#navbar {
+  width: 100%;
+  background-color: rgba(33, 31, 31, 0.61);
+  color: rgb(255, 255, 255);
+  height: 100px;
+  position: fixed;
+}
+
+#nav-container {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  height: 80px;
+}
+
+#navbar-items {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+.link:hover{
+  background-color: gray;
+  border-radius: 10%;
+}
+
+
+/*CONTEUDO CONTENDO FOTO*/
+.conteudo-principal-imagem {
+  height: 350px;
+}
+.conteudo-principal {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.conteudo-principal-escrito-titulo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #ffffff;
+}
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+
+/*REDES SOCIAIS DO COMEÇO DO SITE*/
+.conteudo-quinto1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conteudo-sociais{
+  gap: 18px;
+  position: relative;
+  left: -25%;
+  top: 50%;
+}
+.social-git1 {
+  height: 30px;
+}
+.social-instagram1 {
+  height: 30px;
+}
+.social-linkedin1{
+  height: 30px;
+}
+
+
+
+
+/*SOBRE MIM*/
+.titulo-sobremim {
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  color: #ffffff
+}
+
+.paragrafo-sobremim {
+  padding-top: 50px;
+  display: flex;
+  flex-basis: 70%;
+  text-align: justify;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.conteudo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6vw;
+}
+
+
+
+
+
+/*LINGUAGENS DE PORGRAMÇÃO ESTUDADAS E AINDA ESTUDANDO*/
+.terceiro-conteudo {
+  padding-top: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  color: #ffffff;
+
+}
+.imagens-terceiro {
+  text-align: center;
+}
+.img-teceiro-html {
+height: 100px;
+}
+.img-teceiro-css {
+  height: 100px;
+}
+.img-teceiro-javascript {
+  height: 100px;
+}
+.img-teceiro-python {
+  height: 100px;
+}
+
+
+
+
+
+
+/*PROJETOS*/
+.conteudo-projetos{
+  padding-top: 320px;
+}
+.titulo-projetos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  text-align: left;
+  color: #ffffff
+}
+.paragrafo-projetos {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white ;
+  padding: 30px;
+  text-align: center;
+}
+.box-projetos {
+  display: flex;
+  gap: 1.8rem;
+  justify-content: center;
+  padding: 2rem 2rem 0;
+  flex-wrap: wrap;
+}
+.box-especialidade{
+  border-radius: 3px;
+  box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.5);
+  margin: 20px;
+
+}
+.box-especialidade figcaption {
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.box-link {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.box-link:hover{
+  color: #45d000;
+  background-color: transparent;
+  border-radius: 30px;
+  box-shadow: 8px 0px 8px #44e649;
+}
+.box-projetos img {
+  width: 315px;
+  margin: 10px;
+}
+.link-devmedia {
+  color: rgb(0, 249, 62);
+}
+
+
+
+
+/*BOTÃO PARA BAIXAR O CV*/
+.conteudo-quarto{
+  padding-top: 90px;
+  text-align: center;
+}
+.botao-quarto {
+  border-radius: 10px;
+  background-color: #000000;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.botao-quarto:hover {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  box-shadow: 8px 0px 8px;
+}
+
+
+
+
+
+/*REDES SOCIAS*/
+.social-git {
+  height: 30px;
+}
+.social-instagram {
+  height: 30px;
+}
+.social-linkedin{
+  height: 30px;
+}
+
+
+
+/*LOGO WHATS*/
+.whats-container{
+  display: flex;
+  justify-content: end;
+}
+.logo-whats{
+  height: 100px;
+}
+
+
+/*RODAPÉ DO SITE*/
+.rodape {
+  padding: 35px;
+  border-top: 0.4px solid #ffffff;
+  text-align: center;
+  font-size: 24px;
+  background-color:rgba(33, 31, 31, 0.61);
+  color: rgb(255, 255, 255);
+}
+
